@@ -1,0 +1,27 @@
+{
+    "id": "AD58B795",
+    "path": "~/ProjectRStudio/rstatic-algebra/matrix/gnu/bin/apply/family.R",
+    "project_path": "matrix/gnu/bin/apply/family.R",
+    "type": "r_source",
+    "hash": "2134966557",
+    "contents": "",
+    "dirty": false,
+    "created": 1715703139762.0,
+    "source_on_save": false,
+    "relative_order": 26,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "153,0",
+        "scrollLine": "141"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1715704205,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1715704205678,
+    "read_only": false,
+    "read_only_alternatives": []
+}
