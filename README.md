@@ -119,6 +119,6 @@ plotting in a later chapter, but here are four example plots. Note how
 par(mfrow=c(2,2)) sets up the canvas for two rows and columns, that 
 is for four plots.
 
-<div>
+<div align="center">
 <img src="/matrix/gnu/bin/imges/database.png"/>
 </div>
