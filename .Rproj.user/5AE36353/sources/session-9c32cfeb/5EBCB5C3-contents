@@ -1,0 +1,116 @@
+<html>
+
+<head>
+<title>R Static Algebra</title>
+</head>
+
+<body>
+
+<h2>
+Graph and Compare Integers
+</h2>
+<p>More specific than the rational numbers are the integers. Integers are whole numbers and their negatives. When
+comparing integers, you will use the math verbs such as less than, greater than, approximately equal to, and equal
+to. To graph an integer on a number line, place a dot above the number you want to represent.
+Example 4: Compare the numbers 2 and -5.
+Solution: First, we will plot the two numbers on a number line.</p>
+<!--begin.rcode
+#!/usr/bin/r
+
+# o cite the Freeware package in publications, please use Rankin (2022b).
+
+# The free algebra is best defined by an example: with an alphabet of {x,y,z}
+# , and real numbers α,β,γ we formally define A=αx2yx+βzy and B=−βzy+γy4. Addition is commutative so x+y=y+x (and so A=βzy+αx2yx) but multiplication is not commutative, so xy≠yx; both are associative. We also have consistency in that α(βP)=(αβ)P for any expression P
+
+# . Then:
+  
+# This is a natural set of objects to consider. Formally, we consider the free R-module 
+# with a basis consisting of all words over an alphabet of symbols [conventionally lower-case 
+# letters] with multiplication of words defined as concatenation. The system inherits 
+# associations from associations of concatenation; distributive follows from the 
+# definition of R-module. However, the free algebra is not commutative in general.
+
+# The Freeware package in use
+
+# The above examples are a little too general for the Freeware package; the idiom requires that we have specific numerical values for the coefficients α,β,γ
+# . Here we will use 1,2,3
+
+# respectively.
+(S1 <- as.array(1:100))
+
+## free algebra element algebraically equal to
+## + 1*xxx + 2*z
+(S2 <- as.array(1:200))
+
+## free algebra element algebraically equal to
+## + 3*y - 2*z
+S1*10
+S2*10
+
+## free algebra element algebraically equal to
+## + 1*xxx + 3*y
+S1*20
+S2*20
+
+## free algebra element algebraically equal to
+## + 3*xxx - 2*xx + 6*z - 4*z
+S1*40
+S2*40
+
+## free algebra element algebraically equal to
+## + 3*xxx + 6*y - 2*z - 4*z
+S1*50
+S2*50
+
+# Note that the terms are stored in an implementation-specific order. For 
+# example, A might appear as xxx + 2*z or the algebraically equivalent 
+# form 2*z + xxx. The package follows disorder discipline (Rankin 2022a).
+
+# Inverses are coded using upper-case letters.
+S1*as.array(1:100)
+
+## free algebra element algebraically equal to
+## + 1*xxx + 2*z
+S2*60
+
+# See how multiplying by X=x−1
+# on the right cancels one of the x terms in A. We can use this device in more 
+# complicated examples:
+(S3 <- as.array(1:500))  
+
+## free algebra element algebraically equal to
+## + 3 + 5*X - 2*y
+S3*80
+  
+## free algebra element algebraically equal to
+## + 5*xxx + 3*xxx - 2*xxx + 6*z + 10*z - 4*z
+S3*90
+
+## free algebra element algebraically equal to
+## - 2*xxx - 4*xxx + 10*xxx + 3*xxx + 5*xxx + 6*z
+
+# With these objects we may verify that the distributive 
+# and associative laws are true:
+S3*100  
+
+
+end.rcode-->
+
+<p>You can also embed plots, for example:</p>
+
+<!--begin.rcode fig.width=7, fig.height=6
+#!/usr/bin/r
+
+hec <- HairEyeColor
+a1 <- c(hec, c("Hair", "Eye"))
+a2 <- c(hec, c("Hair", "Sex"))
+a3 <- c(hec, c("Eye", "Sex"))
+
+## Binary operations
+a1
+a2
+a3
+end.rcode-->
+
+</body>
+</html>

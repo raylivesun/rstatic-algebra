@@ -1,0 +1,27 @@
+{
+    "id": "F78C4810",
+    "path": "~/ProjectRStudio/rstatic-algebra/matrix/gnu/test/matrix.R",
+    "project_path": "matrix/gnu/test/matrix.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1715685440324.0,
+    "source_on_save": false,
+    "relative_order": 19,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "7,19",
+        "scrollLine": "3"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1715685545,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1715685545530,
+    "read_only": false,
+    "read_only_alternatives": []
+}
